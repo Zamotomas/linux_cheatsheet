@@ -40,4 +40,129 @@ This project is licensed under the [MIT License](LICENSE), which means you're fr
 
 ---
 
-If you find this cheatsheet helpful, consider giving it a ⭐ to show your support!
+If you find this cheatsheet helpful, consider giving it a ⭐ to show your support!.
+
+## Curriculum for Command Line Management in Linux (Expanded)
+
+## Level 1: Introduction to the Command Line
+
+### What is the Command Line?
+
+- Basic concepts.
+- Advantages and disadvantages.
+
+### Accessing the Command Line
+
+- Terminal and terminal emulators.
+- Remote login (SSH).
+
+### Command Structure
+
+- Command, options, and arguments.
+- Basic syntax.
+
+## Level 2: Navigation and File Management
+
+### Navigating the File System
+
+- Basic commands: `ls`, `cd`, `pwd`.
+- Absolute and relative directories.
+
+### File and Directory Management
+
+- Creating and deleting files and directories: `touch`, `mkdir`, `rm`, `rmdir`.
+- Moving and renaming: `mv`.
+- Copying: `cp`.
+
+## Level 3: Operations and Data Management
+
+### Content Manipulation
+
+- Viewing file contents: `cat`, `less`.
+- Command-line editors: `nano`, `vim`.
+
+### Redirection and Pipelines
+
+- Redirecting output: `>`, `>>`.
+- Pipelines: `|`.
+
+### File Permissions and Ownership
+
+- Basic permissions: read, write, execute.
+- Changing permissions: `chmod`.
+- Changing owner and group: `chown`, `chgrp`.
+
+## Level 4: System Administration
+
+### Users and Groups
+
+- Creating and deleting users and groups: `useradd`, `userdel`, `groupadd`, `groupdel`.
+- Changing passwords: `passwd`.
+
+### Process Management
+
+- Viewing running processes: `ps`, `top`, `htop`.
+- Managing processes: `kill`, `pkill`.
+
+### Task Scheduling
+
+- Cron: scheduling tasks at specific times.
+- `at`: executing commands at a future time.
+
+## Level 5: Networking and Connectivity
+
+### Network Configuration
+
+- Viewing and configuring interfaces: `ifconfig`, `ip`.
+- Connectivity testing: `ping`.
+
+### File Transfer
+
+- Copying files over SSH: `scp`, `rsync`.
+- Transferring files with `wget` and `curl`.
+
+## Level 6: Customization and Automation
+
+### Environment Variables and Aliases
+
+- Defining and using variables: `export`.
+- Creating aliases for commands: `alias`.
+
+### Basic Shell Scripts
+
+- Creating and executing scripts: `#!/bin/bash`.
+- Variables, control structures, and functions.
+
+## Level 7: Advanced System Administration
+
+### Package Management
+
+- Package management: `apt`, `yum`, `dnf`, etc.
+- Software installation and updates.
+
+### Storage Management
+
+- Creating and mounting file systems: `mkfs`, `mount`.
+- Managing storage space: `df`, `du`.
+
+### System Security
+
+- Firewalls: `iptables`, `ufw`.
+- Security monitoring: `fail2ban`, `auditd`.
+
+## Level 8: Advanced Automation and Programming
+
+### Task Automation
+
+- Advanced scripting: complex control structures.
+- Automation with `cron` and `systemd`.
+
+### Shell Programming
+
+- Advanced string manipulation.
+- Functions and libraries.
+
+### Debugging Tools
+
+- `strace`, `ltrace`, `gdb`.
+
